@@ -1,13 +1,35 @@
-#first_nav {
-    color: red;
+#divnav {
+    color: rgb(143, 74, 74);
+    float:left;
+    width:fit-content;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgb(229, 189, 43);
+    align-items: center;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#first_nav img {
+    width: 5%;
+    height: 5%;
 }
 
 p {
     color: blue;
 }
 
-#first_nav {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+.alinear {
+    padding-left: 6%;
 }
