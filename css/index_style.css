@@ -5,3 +5,9 @@
 p {
     color: blue;
 }
+
+#first_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
